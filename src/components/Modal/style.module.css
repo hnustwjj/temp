@@ -1,0 +1,89 @@
+.cover{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background: rgba(56, 52, 61, 0.88);
+  backdrop-filter: blur(8px);
+}
+
+.container{
+  height: 5.82rem;
+  width: 100vw;
+  position:absolute;
+  bottom:0;
+  background-image: url('../../assets/createPlane/bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container::before{
+  content:"";
+  position:absolute;
+  top:0.55rem;
+  left:50%;
+  transform: translateX(-50%);
+  width: 0.4rem;
+  border: 2px solid rgb(203,209,222);
+  border-radius: 0.2rem;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.itemImg{
+  width: 1.55rem;
+  height: 2.04rem;
+  object-fit: contain;
+  margin-top: 0.6rem;
+}
+
+.desc{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.2rem;
+  line-height: 0.29rem;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.desc p{
+  margin: 0;
+}
+
+.desc p:nth-child(2){
+  font-size: 0.13rem;
+}
+
+.line{
+  width: 3.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin-top: 0.34rem;
+}
+
+.detail{
+  width: 2.85rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.13rem;
+  line-height: 0.19rem;
+  text-align: right;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.detailItem{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.12rem;
+}
+
+.button{
+  margin-top: 0.3rem;
+}

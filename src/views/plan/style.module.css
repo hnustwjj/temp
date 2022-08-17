@@ -1,0 +1,22 @@
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #FDFBC2 0%, rgba(207, 112, 213, 0.61) 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.outer{
+  position: fixed;
+  width: 3.41rem;
+  height: 6.96rem;
+  left: 0.17rem;
+  top: 0.45rem;
+  background: #FFFFFF;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  padding-left:0.28rem ;
+  padding-right:0.32rem ;
+}
+
